@@ -139,6 +139,8 @@ jobs:
         CONFIG_PACKAGE_luci-app-adguardhome=y
         CONFIG_PACKAGE_luci-app-autoreboot=y
         CONFIG_PACKAGE_luci-app-ddns=y
+        CONFIG_PACKAGE_luci-app-ddns_go=y
+        CONFIG_PACKAGE_luci-app-alist=y
         CONFIG_PACKAGE_luci-app-nlbwmon=y
         CONFIG_PACKAGE_luci-app-firewall=y
         CONFIG_PACKAGE_luci-app-ssr-plus=y
@@ -149,7 +151,7 @@ jobs:
         CONFIG_PACKAGE_luci-app-webadmin=y
         CONFIG_PACKAGE_luci-app-watchcat=y
         CONFIG_PACKAGE_luci-app-wol=y
-        CONFIG_PACKAGE_luci-app-upnp=y
+        #CONFIG_PACKAGE_luci-app-upnp=y
         CONFIG_PACKAGE_luci-app-vlmcsd=y
         CONFIG_PACKAGE_luci-app-zerotier=y
         CONFIG_PACKAGE_luci-app-turboacc=y
@@ -165,7 +167,7 @@ jobs:
         # 常用软件包:
         cat >> .config <<EOF
         CONFIG_PACKAGE_bind-host=y
-        CONFIG_PACKAGE_ddns-scripts_aliyun=y
+        #CONFIG_PACKAGE_ddns-scripts_aliyun=y
         CONFIG_PACKAGE_ddns-scripts-dnspod=y
         CONFIG_PACKAGE_ddns-scripts-dnspod-com=y
         CONFIG_PACKAGE_default-settings-chn=y
