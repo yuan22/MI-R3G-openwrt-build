@@ -156,6 +156,9 @@ jobs:
         CONFIG_PACKAGE_luci-app-zerotier=y
         CONFIG_PACKAGE_luci-app-turboacc=y
         CONFIG_PACKAGE_luci-app-sqm=y
+        CONFIG_PACKAGE_luci-app-socat=y
+        CONFIG_PACKAGE_socat=y
+        CONFIG_PACKAGE_luci-i18n-socat-zh-cn=y
         EOF
 
         # LuCI主题:
@@ -171,7 +174,7 @@ jobs:
         CONFIG_PACKAGE_ddns-scripts-dnspod=y
         CONFIG_PACKAGE_ddns-scripts-dnspod-com=y
         CONFIG_PACKAGE_default-settings-chn=y
-        CONFIG_PACKAGE_iptables-mod-socket=y
+        #CONFIG_PACKAGE_iptables-mod-socket=y
         CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
         CONFIG_PACKAGE_iptables-mod-iprange=y
         EOF
