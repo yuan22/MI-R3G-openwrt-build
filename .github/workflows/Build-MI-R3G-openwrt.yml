@@ -156,9 +156,9 @@ jobs:
         CONFIG_PACKAGE_luci-app-zerotier=y
         CONFIG_PACKAGE_luci-app-turboacc=y
         CONFIG_PACKAGE_luci-app-sqm=y
-        CONFIG_PACKAGE_luci-app-socat=y
-        CONFIG_PACKAGE_socat=y
-        CONFIG_PACKAGE_luci-i18n-socat-zh-cn=y
+        #CONFIG_PACKAGE_luci-app-socat=y
+        #CONFIG_PACKAGE_socat=y
+        #CONFIG_PACKAGE_luci-i18n-socat-zh-cn=y
         EOF
 
         # LuCI主题:
